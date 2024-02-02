@@ -1,0 +1,48 @@
+table, th, td{
+    // border: 1px solid #aaa;
+    border-collapse: collapse;
+}
+  
+
+table{
+    border: 1px solid #aaa;
+}
+// table{
+//     border-spacing: 20px;
+// }
+
+
+td, th{
+    padding: 20px;
+}
+
+
+tbody tr:last-child{
+    border: none
+}
+
+
+ tbody tr:nth-child(even){
+    background-color: white;
+}
+
+
+tbody tr:nth-child(odd){
+    background-color: #dfd5d5;
+}
+table{
+    thead{
+       
+        tr{
+            border: none;
+            th{
+                text-align: left;
+                
+            }
+        }
+    }
+}
+
+td:hover{
+    background-color: darksalmon;
+}
